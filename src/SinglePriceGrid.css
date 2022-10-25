@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+    justify-content: center;
+  }
+#container {
+  background-color: rgba(255, 255, 255, 1);
+}
+#join {
+  color: rgba(43, 179, 177, 255);
+}
+#join-sub {
+  color: rgba(191, 223, 50, 255);
+}
+.gray-p {
+  color: rgba(0, 0, 0, 35%);
+  margin-top: 1em;
+  line-height: 1.4;
+}
+#subscription {
+  background-color: rgba(43, 179, 177, 255);
+  color: rgb(255, 255, 255);
+}
+.margin-top {
+  margin-top: 1em;
+}
+#price {
+  display: flex;
+  align-items: center;
+}
+.big {
+  font-size: 3em;
+}
+.small {
+  padding-left: 0.8em;
+  color: rgba(255, 255, 255, 55%);
+}
+.button {
+  display: block;
+  margin-top: 1em;
+  background-color: rgba(191, 223, 50, 255);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  padding: 1em;
+  text-align: center;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.3);
+}
+#why {
+  background-color: rgba(74, 190, 189, 255);
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.5;
+}
+#why-list {
+  margin-top: 1.5em;
+  list-style: none;
+  font-size: smaller;
+}
+.box {
+  padding: 2em;
+}
+@media (min-width: 768px) {
+    #bottom {
+      display: flex;
+    }
+    #why,
+    #subscription {
+      width: 50%;
+    }
+  }
